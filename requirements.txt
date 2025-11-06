@@ -2,7 +2,6 @@ click==8.1.7
 jax==0.4.33 
 jax-cfd==0.2.1
 jaxlib==0.4.33 
-jax-metal
 matplotlib==3.9.2
 numpy==2.1.1
 pandas==2.2.3
@@ -12,18 +11,3 @@ tensorboard==2.18.0
 torch==2.4.1
 tqdm==4.66.5
 click
-
-#conda create -n ssls python=3.10 -c conda-forge
-#pip install -r requirements.txt 
-
-#cd SSLS
-#conda activate ssls
-#python main.py kolmogorov --device mps
-"""
-conda info --base
-# 예: /opt/anaconda3 또는 ~/miniforge3
-
-# zsh에서 conda 훅을 항상 로드
-echo 'eval "$('$(conda info --base)'/bin/conda shell.zsh hook)"' >> ~/.zshrc
-exec $SHELL 이거 실행시키면 문제가 해결되는데 영구적으로 어떻게해
-"""
